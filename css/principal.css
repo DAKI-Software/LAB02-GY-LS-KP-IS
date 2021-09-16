@@ -1,1 +1,70 @@
 /*CSS del index*/
+
+
+.container {
+    width: 80%;
+    /*se recomienda usar los 4 margenes*/
+    /* top left bottom right */
+    /*margin:1rem auto 1rem auto;*/
+    margin:1rem auto;
+    /* este es la abreviación de 1re auto 1rem*/
+}
+
+.nav-back{
+    background-color: blueviolet);
+}
+.nav_principal{
+    /* Usamos display:flex para 
+    habilitar las opciones de flexbox.
+    Este debe ser usado en la clase padre 
+    de lo que queramos que se encuadre.
+    El justify-content es para posicionar el texto.
+    */
+    display: flex;
+    /* existen distintos tipos de espacios, queda probar*/
+    flex-direction: column;
+    align-items: center;
+}
+/*a los elemenos "a" dentro dela clase nav_principal*/
+.nav_principal a{
+    color:burlywood;
+    /* con none quitamos los subrayados */
+    text-decoration: none;
+    font-size: 2rem;
+    /* bold es NEGRITAS*/
+    font-weight: bold;
+    /*espacio desde la orilla hacia dentro*/
+    padding: 0.85rem;
+}
+/* HOVER para efectos */
+.nav_principal a:hover {
+    background-color: #874c62;
+    /*color: var(--dark);*/
+}
+
+.boton {
+    background-color: blueviolet;
+    color: #c98474;
+    padding: 1rem 3rem;
+    /*margin top es la separación superior*/
+    margin-top: 1rem;
+    font-size: 2rem;
+    /* retira los subrayados o cualquier decoración*/
+    text-decoration: none;
+    /*uppercase para ponerlo en mayusculas*/
+    text-transform: uppercase;
+    /*aplica negrita*/
+    font-weight:bold;
+    /*esquinas redondeadeas para le boton*/
+    border-radius: 0.75rem;
+    width: 80%;
+    text-align: center;
+    font-size: small;
+}
+
+@media (min-width: 480px){
+    .nav_principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
