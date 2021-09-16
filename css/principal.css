@@ -1,17 +1,23 @@
-/*CSS del index*/
-
+/*CSS*/
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 .container {
     width: 80%;
     /*se recomienda usar los 4 margenes*/
     /* top left bottom right */
     /*margin:1rem auto 1rem auto;*/
-    margin:1rem auto;
+    top:0;
     /* este es la abreviación de 1re auto 1rem*/
 }
 
 .nav-back{
-    background-color: blueviolet;
+    background-color: #FF9595;
 }
 .nav_principal{
     /* Usamos display:flex para 
@@ -22,12 +28,16 @@
     */
     display: flex;
     /* existen distintos tipos de espacios, queda probar*/
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 2.25rem;
+    width: 100%;
+    z-index: 99;
 }
 /*a los elemenos "a" dentro dela clase nav_principal*/
 .nav_principal a{
-    color:burlywood;
+    color:white;
     /* con none quitamos los subrayados */
     text-decoration: none;
     font-size: 2rem;
@@ -38,7 +48,7 @@
 }
 /* HOVER para efectos */
 .nav_principal a:hover {
-    background-color: #874c62;
+    background-color: blueviolet;
     /*color: var(--dark);*/
 }
 
