@@ -559,3 +559,30 @@ footer{
 }
 
 /* celulares */
+
+/* impresoras*/
+.titulo{
+    font-size: 60px;
+    color:palegreen;
+    background-color: tomato;
+    text-align: center;
+}
+
+.item{
+    font-size: 20px;
+    color: royalblue;
+    width: 350px;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+}
+
+.tam{
+    width: 300px;
+    display: inline-block;
+}
+
+.descripcion{
+    color: rgba(0, 0, 0.2, 0.5);
+    font-size: 15px;
+}
