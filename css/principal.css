@@ -124,6 +124,12 @@ body{
 
 
 /*INDEX*/
+.productos-estrella {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
 .portafolio {
     background: #f2f2f2;
 }
@@ -283,6 +289,8 @@ footer{
     padding-bottom: 50px;
     border-bottom: 1px solid #ccc;
 }
+
+
 /*INDEX */
 
 /*ELECTRODOMESTICOS*/
