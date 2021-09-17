@@ -346,10 +346,11 @@ body{
 
 .producto h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     animation: titleanimation;
     animation-duration: 5s;
+    margin: 10px;
 }
 @keyframes titleanimation {
     0% {color: white;}
@@ -358,8 +359,9 @@ body{
 }
 
 
-.producto figure {
+.producto .celulares{
     display: inline-block;
+    margin: 50px;
 }
 
 .producto figure img{
