@@ -53,7 +53,7 @@ body{
     /*color: var(--dark);*/
 }
 
-body{
+.boody{
     background: rgba(235,233,249,1);
     background: -moz-radial-gradient(center, ellipse cover, rgba(235,233,249,1) 0%, rgba(216,208,239,0.97) 55%, rgba(206,199,236,0.96) 76%, rgba(193,191,234,0.95) 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(235,233,249,1)), color-stop(55%, rgba(216,208,239,0.97)), color-stop(76%, rgba(206,199,236,0.96)), color-stop(100%, rgba(193,191,234,0.95)));
