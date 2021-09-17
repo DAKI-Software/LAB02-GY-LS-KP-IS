@@ -53,6 +53,48 @@ body{
     /*color: var(--dark);*/
 }
 
+body{
+    background: rgba(235,233,249,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(235,233,249,1) 0%, rgba(216,208,239,0.97) 55%, rgba(206,199,236,0.96) 76%, rgba(193,191,234,0.95) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(235,233,249,1)), color-stop(55%, rgba(216,208,239,0.97)), color-stop(76%, rgba(206,199,236,0.96)), color-stop(100%, rgba(193,191,234,0.95)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(235,233,249,1) 0%, rgba(216,208,239,0.97) 55%, rgba(206,199,236,0.96) 76%, rgba(193,191,234,0.95) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(235,233,249,1) 0%, rgba(216,208,239,0.97) 55%, rgba(206,199,236,0.96) 76%, rgba(193,191,234,0.95) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(235,233,249,1) 0%, rgba(216,208,239,0.97) 55%, rgba(206,199,236,0.96) 76%, rgba(193,191,234,0.95) 100%);
+    background: radial-gradient(ellipse at center, rgba(235,233,249,1) 0%, rgba(216,208,239,0.97) 55%, rgba(206,199,236,0.96) 76%, rgba(193,191,234,0.95) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=1 );
+}
+
+.titulo {
+    color:gainsboro;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.super{
+    background-image: url("../img/laptop-fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    position: relative;
+}
+.super-select{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* ambas son maneras de poner un fondo transparente,
+    la primera tiene mas soporte que la 2da*/
+    background-color: rgb(0 0 0 / 70%);
+    height: 100%;
+    width: 100%;
+    /* cuando flex-direction: column se alinea horizontalmente con
+        align-items: center y verticalmente con justify-content: center
+        si flex-direction: row (predet) se hace ¿al reves?
+    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .boton {
     background-color: blueviolet;
     color: #c98474;
